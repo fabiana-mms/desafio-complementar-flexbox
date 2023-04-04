@@ -1,0 +1,88 @@
+.container {
+   display: flex;
+   border: 2px solid red;
+   flex-direction: column-reverse;
+   margin-bottom: 30px;
+  }
+  
+  .container-filho {
+     width: 100px;
+     height: 100px;
+     color: #ffffff;
+     font-size: 20px;
+     padding: 20px;
+     margin: 10px;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     border-style: dashed;
+  }
+  
+  .uva {
+     background-color: indigo;
+  }
+  
+  .maca {
+     background-color: crimson;
+  }
+  
+  .abacaxi {
+     background-color: goldenrod;
+  }
+  
+  .morango {
+     background-color: darkred;
+  }
+  
+  .kiwi {
+     background-color: forestgreen;
+  }
+  
+  .container-ativ {
+     display: flex;
+     height: 500px;
+     color: #ffffff;
+     font-weight: bold;
+     text-align: center;
+  }
+  
+  .navegacao {
+     background-color: darkorange;
+     padding: 20px;
+  }
+  
+  .outros-itens {
+     display: flex;
+     flex-direction: column;
+     justify-content: space-between;
+  }
+  .cabecalho {
+     background-color: aqua;
+     padding: 20px;
+     height: 100px;
+     display: flex;
+     align-items: flex-start;
+     justify-content: center;
+  }
+  
+  .corpo {
+     display: flex;
+     height: 300px;
+  }
+  
+  .conteudo {
+     background-color: blueviolet;
+     padding: 20px;
+     width: 500px;
+  }
+  
+  .barra-lateral {
+     background-color: chartreuse;
+     padding: 20px;
+  }
+  
+  .rodape {
+     background-color: crimson;
+     padding: 20px;
+     height: 100px;
+  }
